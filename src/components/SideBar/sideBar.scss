@@ -1,0 +1,31 @@
+.options-content,
+.options-history {
+    padding: 8px 0px;
+    list-style-type: none;
+    margin: 0 -12px;
+    li {
+        padding: 6px 0;
+        cursor: pointer;
+        &:hover {
+            background-color: #f2f2f2;
+        }
+        i {
+            font-size: 24px;
+            margin: 0 16px;
+        }
+    }
+}
+
+.options-history {
+    h5 {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+}
+
+.isActive {
+    background-color: #e5e5e5;
+    font-weight: bolder;
+}
